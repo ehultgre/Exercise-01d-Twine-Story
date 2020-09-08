@@ -1,164 +1,171 @@
 {
-    "passages": [
-      {
-        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Road",
-        "pid": "1",
-        "position": {
-          "x": "412",
-          "y": "189"
+  "passages": [
+    {
+      "text": "It is a cold, stormy night, and as you are walking home along the side of the road you realize that you have lost your bearings. You were supposed to head east after passing the convenience store, but it has been some time since you have seen any buildings- or other people, for that matter. As you try to make out your surroundings through the pounding rain, you notice a dark figure walking ahead of you.\n\n[[Walk towards the figure->Figure]]\n[[Investigate the figure->Bush]]",
+      "links": [
+        {
+          "name": "Walk towards the figure",
+          "link": "Figure",
+          "pid": "3"
+        },
+        {
+          "name": "Investigate the figure",
+          "link": "Bush",
+          "pid": "2"
         }
-      },
-      {
-        "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Forest",
-        "pid": "2",
-        "position": {
-          "x": "187",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Road",
-            "pid": "1"
-          }
-        ],
-        "name": "Building",
-        "pid": "3",
-        "position": {
-          "x": "337",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Valley",
-        "pid": "4",
-        "position": {
-          "x": "487",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Hill",
-        "pid": "5",
-        "position": {
-          "x": "637",
-          "y": "339"
-        }
+      ],
+      "name": "Road",
+      "pid": "1",
+      "position": {
+        "x": "695",
+        "y": "99"
       }
-    ],
-    "name": "Adventure",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.7",
-    "ifid": "1A8FFB75-8072-4382-BCAF-ADFA65B09385"
-  }
+    },
+    {
+      "text": "You duck behind a bush and begin to observe the stranger, who is soon joined by two other men. Before they are out of earshot, you hear one of them mention that they are looking for someone. \"I knew he'd get lost out here\" the man says, \"but I didn't think we'd lose him too.\" \"Maybe he knows theres no store\" says one of the others.\n\n[[Flee->Forest]]\n[[Approach the men->Figure]]",
+      "links": [
+        {
+          "name": "Flee",
+          "link": "Forest",
+          "pid": "4"
+        },
+        {
+          "name": "Approach the men",
+          "link": "Figure",
+          "pid": "3"
+        }
+      ],
+      "name": "Bush",
+      "pid": "2",
+      "position": {
+        "x": "899",
+        "y": "197"
+      }
+    },
+    {
+      "text": "You approach the figure slowly and anxiously, wary of the type of stranger that you could be meeting on the road at this late hour. As you near the end of your advance you stumble over a stick, alerting the man of your presence. \"Its him!\" you hear him shout.\n\n[[Flee->Forest]] \n[[\"Me?\" you ask the man->Man]] ",
+      "links": [
+        {
+          "name": "Flee",
+          "link": "Forest",
+          "pid": "4"
+        },
+        {
+          "name": "\"Me?\" you ask the man",
+          "link": "Man",
+          "pid": "5"
+        }
+      ],
+      "name": "Figure",
+      "pid": "3",
+      "position": {
+        "x": "500",
+        "y": "198"
+      }
+    },
+    {
+      "text": "You run through the forest as fast as you can, without looking back. After a few minutes of sprinting you emerge on the side of a dark road, and are greeted by a shout. \"You look like you've had quite the night!\" a man yells at you from the window of a pickup truck. \n\n[[Ignore the man->Road]]\n[[Approach the truck->Truck]]",
+      "links": [
+        {
+          "name": "Ignore the man",
+          "link": "Road",
+          "pid": "1"
+        },
+        {
+          "name": "Approach the truck",
+          "link": "Truck",
+          "pid": "8"
+        }
+      ],
+      "name": "Forest",
+      "pid": "4",
+      "position": {
+        "x": "700",
+        "y": "301"
+      }
+    },
+    {
+      "text": "You confusedly walk towards the man, only to be greeted by a flurry of punches. As you gasp for air on the ground you briefly scan the face of your assailant. It is a man you recognize. \n\n[[Beg for mercy->Beg]]\n[[Fight back->Fight]]",
+      "links": [
+        {
+          "name": "Beg for mercy",
+          "link": "Beg",
+          "pid": "7"
+        },
+        {
+          "name": "Fight back",
+          "link": "Fight",
+          "pid": "6"
+        }
+      ],
+      "name": "Man",
+      "pid": "5",
+      "position": {
+        "x": "299",
+        "y": "299"
+      }
+    },
+    {
+      "text": "\"What do you want from me!?\" you ask the man as you scramble up to your feet, raising your fists. You ready yourself to attack but it is already too late. Two more men are upon you, and as a bag slips over your head everything fades to black.\n[[Game Over]]",
+      "links": [
+        {
+          "name": "Game Over",
+          "link": "Game Over",
+          "pid": "9"
+        }
+      ],
+      "name": "Fight",
+      "pid": "6",
+      "position": {
+        "x": "501",
+        "y": "398"
+      }
+    },
+    {
+      "text": "Recognizing the man from the pickup truck ealier you plead, offering him your wallet and possessions in exchange for letting you go. He looks at you with a blank stare, cold and unflinching. \"You think I want your wallet?\" he asks.\nTwo more men are upon you, and as a bag slips over your head everything fades to black.\n[[Game Over]]",
+      "links": [
+        {
+          "name": "Game Over",
+          "link": "Game Over",
+          "pid": "9"
+        }
+      ],
+      "name": "Beg",
+      "pid": "7",
+      "position": {
+        "x": "99",
+        "y": "401"
+      }
+    },
+    {
+      "text": "Visibly exhausted and ragged from running through the woods, you decide to ask the man for directions home. \"Go straight until you get to the convenience store\" he says, \"and then head east.\"\n\n[[Walk home->Road]]\n",
+      "links": [
+        {
+          "name": "Walk home",
+          "link": "Road",
+          "pid": "1"
+        }
+      ],
+      "name": "Truck",
+      "pid": "8",
+      "position": {
+        "x": "900",
+        "y": "399"
+      }
+    },
+    {
+      "text": "",
+      "name": "Game Over",
+      "pid": "9",
+      "position": {
+        "x": "501",
+        "y": "548"
+      }
+    }
+  ],
+  "name": "Story One",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "213678F2-BF23-4A76-A2CF-10B38E3564A2"
+}
